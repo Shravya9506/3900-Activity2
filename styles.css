@@ -39,6 +39,23 @@
     height:4px;
 }
 
+#back-btn-container {
+    display: flex;
+    width: 60%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.back-btn {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.back-btn:hover {
+    text-decoration: underline;
+}
+
 #main-container {
     border: 5px solid;
     border-image: none;
@@ -122,23 +139,27 @@
 }
 
 .card a {
-    text-decoration: underline solid;
+    text-decoration: underline;
     color: black;
     font-size: 20px;
     line-height: 36px;
     letter-spacing: 1px;
 }
 
-.card a:hover {
-    text-decoration: underline;
-}
-
 footer {
-    width: 100%;
+    width: auto;
     background-color: #9fa9a3;
     display : flex;
     flex-direction: row;
     justify-content: space-evenly;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.fixed-bottom {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 #assignments-main-content, #textbooks-main-content, #course-objectives-main-content {
