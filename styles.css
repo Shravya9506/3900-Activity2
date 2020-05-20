@@ -141,3 +141,51 @@
     height: 100px;
     background-color: #9fa9a3;
 }
+
+#assignments-main-content {
+    width: 100%;
+    height: 100%;
+    background-color: #f0f0f0;
+}
+
+#assignments-title div {
+    color: maroon;
+    font-size: 40px;
+    letter-spacing: 1px;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+#assignments-title p {
+    line-height: 24px;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-family: Arial;
+}
+
+.assignments-main-container {
+    display: flex;
+}
+
+.assignment-details-title {
+    font-size : 16px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color : black;
+    background-color: #e3e0cc;
+}
+
+.assignment-details {
+    font-size: 16px;
+    font-family: Arial;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+
+
+#assignment-types, #assignment-type-description, #assignment-type-points {
+    display: flex;
+    flex-direction: column;
+    width: 33.33%;
+    text-align: center;
+}
