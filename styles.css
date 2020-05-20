@@ -92,7 +92,7 @@
 
 #more-details {
     height: 5%;
-    padding-left: 15px;
+    padding-left: 35px;
     font-family: Arial;
     font-size: 20px;
     line-height: 36px;
@@ -142,13 +142,13 @@
     background-color: #9fa9a3;
 }
 
-#assignments-main-content, #textbooks-main-content {
+#assignments-main-content, #textbooks-main-content, #course-objectives-main-content {
     width: auto;
     height: 100%;
     background-color: #f0f0f0;
 }
 
-#assignments-title div,  #textbooks-details-container div{
+#assignments-title div,  #textbooks-details-container div, #course-objectives-main-container div{
     color: maroon;
     font-size: 40px;
     letter-spacing: 1px;
@@ -156,14 +156,14 @@
     font-weight: bold;
 }
 
-#assignments-title p {
+#assignments-title p , #course-objectives-main-container p, #course-objectives-main-container ul {
     line-height: 24px;
     letter-spacing: 1px;
     font-size: 16px;
     font-family: Arial;
 }
 
-.assignments-main-container {
+.assignments-main-container, #course-objectives-main-container {
     border: 5px solid;
     border-image: none;
     padding: 20px 10px;
