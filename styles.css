@@ -142,13 +142,13 @@
     background-color: #9fa9a3;
 }
 
-#assignments-main-content {
-    width: 100%;
+#assignments-main-content, #textbooks-main-content {
+    width: auto;
     height: 100%;
     background-color: #f0f0f0;
 }
 
-#assignments-title div {
+#assignments-title div,  #textbooks-details-container div{
     color: maroon;
     font-size: 40px;
     letter-spacing: 1px;
@@ -164,6 +164,12 @@
 }
 
 .assignments-main-container {
+    border: 5px solid;
+    border-image: none;
+    padding: 20px 10px;
+}
+
+#assignment-types-container {
     display: flex;
 }
 
@@ -177,7 +183,7 @@
 
 .assignment-details {
     font-size: 16px;
-    font-family: Arial;
+    font-family: Arial; 
     letter-spacing: 1px;
     line-height: 24px;
 }
@@ -188,4 +194,24 @@
     flex-direction: column;
     width: 33.33%;
     text-align: center;
+}
+
+
+#textbooks-details-container {
+    font-size: 16px;
+    font-family: Arial; 
+    letter-spacing: 1px;
+    line-height: 24px;
+    border: 5px solid;
+    border-image: none;
+    padding: 20px 10px;
+}
+
+#good-luck-img-container {
+    text-align: center;
+}
+
+#good-luck-img-container img {
+    width: 20%;
+    height: 20%;
 }
