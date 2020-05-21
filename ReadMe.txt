@@ -7,3 +7,5 @@ The assignments.html web page provides information about the various assignments
 The textbooks.html page provides information about the books which are required and recommended for the course.
 
 The courseObjectives.html page provides the information about the various topics that will be thought as part of the course and also an insight about the technologies, methodologies, IDEs and tools that will be used during the course.
+
+Published Website on GitHub Pages - https://shravya9506.github.io/3900-Activity2/index.html
